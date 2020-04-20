@@ -1,0 +1,74 @@
+	
+	<div id="goTop"></div>
+	<a class="skip-navigation" title="Skip to main content" href="#main" tabindex="0">Skip to main content</a>
+
+	<header id="header-wrapper" role="banner">
+		<div id="header-inside">
+		<div class="section" id="header">
+		<div class="widget Header">
+		<div class="title">
+			<h1><a href="<?php bloginfo("url"); ?>" title="<?php bloginfo("name"); ?>"><?php bloginfo("name"); ?></a></h1>		  </div>
+			<p class="description"><?php bloginfo("description"); ?></p>
+		</div>
+		</div>
+			<div class="jagoampNav section" id="Navigasi">
+			<div class="widget HTML">
+				<input type="checkbox" id="toggle"/>
+				<label for="toggle" class="menu-btn"><span class="show"></span><span class="hide"></span></label>
+				
+				<nav role="navigation" class="navigation">
+					<ul>
+					<li><a class="news" title="News" href="/category/news/">News</a></li>
+					
+					<li><a class="price" title="Price" href="https://gsm.promoku.net/">Price</a></li>
+	
+					<li><input class="expand" id="drop-1" type="checkbox"/>
+						<label class="drop android"  for="drop-1">Gadget</label>
+							<ul class="drop-menu">
+							<li><a title="Android" href="/category/android/">Android</a></li>
+							<li><a title="IOS" href="/category/apple/">IOS</a></li>
+							<li><a title="Smartphone" href="/category/smartphone/">Smartphone</a></li>
+							</ul>
+					</li>
+						
+					<li><input class="expand" id="drop-2" type="checkbox"/>
+						<label class="drop computer" for="drop-2">Windows</label><ul class="drop-menu">
+						<li><a title="Windows" href="/category/windows/">Windows</a></li>
+						</ul>
+					</li>
+						
+					<li><input class="expand" id="drop-3" type="checkbox"/>
+						<label class="drop more" for="drop-3">More</label>
+						<ul class="drop-menu">
+							<li><a title="Tips" href="/category/tips/">Tips</a></li>
+						</ul>
+					</li>
+	
+					<li><a class="reviews" title="Reviews" href="/category/reviews/">Reviews</a></li>
+						
+					</ul>
+				</nav>
+				
+				<div class="mask"/>
+			</div>
+			</div>
+		</div>
+		
+		<div class="jagoamp-search">
+			<form action="<?php bloginfo('url'); ?>" role="search" target="_top">
+				<input aria-label="Search" autocomplete="off" class="det-input" name="s" placeholder="Type and enter..." required="required" title="Search" type="text" value="">
+				<input name="max-results" type="hidden" value="10"/>
+				<span class="det-button" tabindex="0"></span></input>
+			</form>
+		</div>
+	
+	<div class="darkjagoamp">
+		<input aria-label="checkbox" class="checkbox" id="darkjagoamp" onclick="darked()" title="Mode Dark" type="checkbox"/>				<label class="darkIcon" for="darkjagoamp">
+				<span class="darkmode" title="Dark Theme"></span>
+				<span class="lightmode" title="Light Theme"></span>
+			 </label>
+	</div>
+	
+	<div class="clear"></div>
+	
+		</header>
